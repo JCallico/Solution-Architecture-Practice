@@ -88,14 +88,14 @@ Evolve toward platform-based thinking, creating reusable capabilities that accel
 
 ## Guiding Principles
 
-1. **Business Outcomes First**: Architecture decisions must align with and enable business objectives
-2. **Pragmatic Over Perfect**: Deliver practical solutions that balance ideal states with reality
-3. **Secure by Design**: Security is non-negotiable and built in from the start
-4. **Cloud-Native Mindset**: Default to cloud-native patterns and services
-5. **Automation & DevOps**: Embrace automation, CI/CD, and DevOps practices
-6. **Data-Driven**: Use data and metrics to drive decisions
-7. **Open Standards**: Prefer open standards and avoid vendor lock-in where practical
-8. **Sustainability**: Design for long-term sustainability and maintainability
+1. **[Business Outcomes First](./principles/business-alignment.md)**: Architecture decisions must align with and enable business objectives
+2. **[Pragmatic Over Perfect](./principles/evolutionary-architecture.md)**: Deliver practical solutions that balance ideal states with reality
+3. **[Secure by Design](./principles/security-by-design.md)**: Security is non-negotiable and built in from the start
+4. **[Cloud-Native Mindset](./principles/cloud-first-cloud-native.md)**: Default to cloud-native patterns and services
+5. **[Automation & DevOps](./principles/automation-over-manual.md)**: Embrace automation, CI/CD, and DevOps practices
+6. **[Data-Driven](./principles/data-as-an-asset.md)**: Use data and metrics to drive decisions
+7. **[Open Standards](./principles/api-first-design.md)**: Prefer open standards and avoid vendor lock-in where practical
+8. **[Sustainability](./principles/reuse-standardization.md)**: Design for long-term sustainability and maintainability
 
 ---
 

@@ -13,6 +13,8 @@
 - Involve business stakeholders in architectural decisions
 - Balance technical purity with business pragmatism
 
+**[Detailed Documentation →](./principles/business-alignment.md)**
+
 ### 2. Customer-Centric Design
 **Principle**: Design solutions that deliver exceptional customer experiences.
 
@@ -23,6 +25,8 @@
 - Optimize for performance, availability, and usability
 - Design for accessibility and inclusivity
 - Measure and monitor customer experience metrics
+
+**[Detailed Documentation →](./principles/customer-centric-design.md)**
 
 ### 3. Security by Design
 **Principle**: Security must be built into solutions from the ground up, not bolted on.
@@ -36,6 +40,8 @@
 - Automate security testing and compliance
 - Follow least privilege access patterns
 
+**[Detailed Documentation →](./principles/security-by-design.md)**
+
 ### 4. Cloud-First, Cloud-Native
 **Principle**: Default to cloud services and cloud-native patterns.
 
@@ -47,6 +53,8 @@
 - Embrace serverless where appropriate
 - Use cloud-native observability and operations tools
 
+**[Detailed Documentation →](./principles/cloud-first-cloud-native.md)**
+
 ### 5. API-First Design
 **Principle**: Design and build APIs before implementing the underlying services.
 
@@ -57,6 +65,8 @@
 - Treat APIs as products with versioning and lifecycle management
 - Apply consistent API design standards (REST, GraphQL, gRPC)
 - Document APIs comprehensively
+
+**[Detailed Documentation →](./principles/api-first-design.md)**
 
 ### 6. Data as an Asset
 **Principle**: Treat data as a strategic asset requiring governance, quality, and security.
@@ -70,6 +80,8 @@
 - Enable data analytics and insights
 - Apply appropriate data retention and archival policies
 
+**[Detailed Documentation →](./principles/data-as-an-asset.md)**
+
 ### 7. Automation Over Manual
 **Principle**: Automate repetitive tasks, deployments, and operations.
 
@@ -81,6 +93,8 @@
 - Implement GitOps practices
 - Build self-service capabilities
 - Automate monitoring and remediation
+
+**[Detailed Documentation →](./principles/automation-over-manual.md)**
 
 ### 8. Design for Failure
 **Principle**: Systems will fail; design for resilience and graceful degradation.
@@ -94,6 +108,8 @@
 - Implement chaos engineering practices
 - Design for eventual consistency where appropriate
 
+**[Detailed Documentation →](./principles/design-for-failure.md)**
+
 ### 9. Observability Built-In
 **Principle**: Systems must be observable through logging, metrics, and tracing.
 
@@ -105,6 +121,8 @@
 - Enable distributed tracing
 - Build dashboards and alerts
 - Track SLIs, SLOs, and error budgets
+
+**[Detailed Documentation →](./principles/observability-built-in.md)**
 
 ### 10. Modularity and Loose Coupling
 **Principle**: Design modular systems with loose coupling and high cohesion.
@@ -118,6 +136,8 @@
 - Design clear boundaries and contracts
 - Enable independent deployment and scaling
 
+**[Detailed Documentation →](./principles/modularity-loose-coupling.md)**
+
 ### 11. Reuse and Standardization
 **Principle**: Maximize reuse through standard patterns, platforms, and components.
 
@@ -129,6 +149,8 @@
 - Maintain architecture decision records
 - Evaluate before building custom solutions
 - Contribute to inner source initiatives
+
+**[Detailed Documentation →](./principles/reuse-standardization.md)**
 
 ### 12. Cost Optimization
 **Principle**: Design for cost efficiency and optimize continuously.
@@ -142,6 +164,8 @@
 - Leverage reserved instances and savings plans
 - Design for efficient data storage and transfer
 
+**[Detailed Documentation →](./principles/cost-optimization.md)**
+
 ### 13. Scalability and Performance
 **Principle**: Design for current needs with the ability to scale for future growth.
 
@@ -153,6 +177,8 @@
 - Optimize database access patterns
 - Load test and performance test regularly
 - Monitor performance trends
+
+**[Detailed Documentation →](./principles/scalability-performance.md)**
 
 ### 14. Compliance and Governance
 **Principle**: Ensure all solutions comply with regulatory, legal, and internal requirements.
@@ -166,6 +192,8 @@
 - Regular compliance reviews and audits
 - Maintain data residency requirements
 
+**[Detailed Documentation →](./principles/compliance-governance.md)**
+
 ### 15. Evolutionary Architecture
 **Principle**: Design systems that can evolve and adapt over time.
 
@@ -177,6 +205,8 @@
 - Refactor continuously
 - Plan for technology refresh cycles
 - Document evolutionary decisions in ADRs
+
+**[Detailed Documentation →](./principles/evolutionary-architecture.md)**
 
 ## Applying These Principles
 
