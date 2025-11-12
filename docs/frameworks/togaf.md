@@ -78,7 +78,7 @@ We use TOGAF principles adapted for our context:
 - The Open Group certification program
 
 ### Internal Resources
-- [Enterprise Architecture Vision](./docs/templates/documents/architecture-vision-template.md)
+- [Enterprise Architecture Vision](../templates/documents/architecture-vision-template.md)
 - [Architecture Decision Process](../processes/decision-process.md)
 
 ### Training

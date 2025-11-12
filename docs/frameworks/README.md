@@ -9,28 +9,31 @@ This section provides comprehensive guidance on the architecture frameworks, met
 ### Core Frameworks
 - [TOGAF Framework](./togaf.md) - The Open Group Architecture Framework
 - [C4 Model](./c4-model.md) - Context, Containers, Components, Code
-- [AWS Well-Architected Framework](./aws-well-architected.md)
-- [Azure Well-Architected Framework](./azure-well-architected.md)
-- [12-Factor App Methodology](./twelve-factor.md)
+- [Well-Architected Framework](./well-architected.md) - AWS and Azure best practices
+  - [AWS Well-Architected Framework](./aws-well-architected.md) - AWS specific guidance
+  - [Azure Well-Architected Framework](./azure-well-architected.md) - Azure specific guidance
+- [Architecture Decision Records (ADRs)](./adr-framework.md) - Documenting decisions
+- [Twelve-Factor App Methodology](./twelve-factor.md) - Application design principles
 
 ### Architecture Approaches
 - [Domain-Driven Design (DDD)](./domain-driven-design.md)
-- [Event-Driven Architecture](./event-driven-architecture.md)
 - [Microservices Architecture](./microservices.md)
+- [Event-Driven Architecture](./event-driven-architecture.md)
 - [API-First Design](./api-first.md)
 - [Serverless Architecture](./serverless.md)
 
 ### Modeling & Documentation
-- [Architecture Modeling](./architecture-modeling.md)
-- [Documentation Standards](./documentation-standards.md)
-- [Diagram Standards](./diagram-standards.md)
 - [Architecture Decision Records (ADRs)](./adr-framework.md)
+- [C4 Model](./c4-model.md)
+- [Architecture Modeling](./architecture-modeling.md) - Modeling approaches and techniques
+- [Documentation Standards](./documentation-standards.md) - Documentation types and standards
+- [Diagram Standards](./diagram-standards.md) - Visual diagram standards and practices
 
 ### Specialized Frameworks
-- [Data Architecture Framework](./data-architecture-framework.md)
-- [Security Architecture Framework](./security-framework.md)
-- [Integration Architecture Framework](./integration-framework.md)
-- [Cloud Architecture Framework](./cloud-framework.md)
+- [Data Architecture Framework](./data-architecture.md) - Data platform design and governance
+- [Security Architecture Framework](./security-architecture.md) - Security patterns and controls
+- [Integration Architecture Framework](./integration-architecture.md) - Integration patterns and message systems
+- [Cloud Architecture Framework](./cloud-architecture.md) - Cloud design and multi-cloud strategies
 
 ## When to Use Which Framework
 
@@ -69,18 +72,86 @@ This section provides comprehensive guidance on the architecture frameworks, met
 - High scalability demands
 - Real-time data streaming
 
+### API-First Design
+**Use When**:
+- Building APIs as core product
+- Microservices communication
+- Developer experience priority
+- Contract-driven development
+
+### Serverless Architecture
+**Use When**:
+- Event-triggered workloads
+- Cost optimization critical
+- Scaling unpredictable
+- Operations overhead reduction desired
+
+### Twelve-Factor App
+**Use When**:
+- Cloud-native applications
+- Scalable SaaS design
+- Containerized deployments
+- Multi-environment parity needed
+
+### Architecture Modeling
+**Use When**:
+- Creating architecture documentation
+- Communicating with different audiences
+- Multiple architecture views needed
+- Design visualization required
+
+### Documentation Standards
+**Use When**:
+- Establishing documentation practices
+- Ensuring documentation consistency
+- Creating documentation templates
+- Setting organizational standards
+
+### Diagram Standards
+**Use When**:
+- Creating architecture diagrams
+- Ensuring visual consistency
+- Documenting system structure
+- Communicating with stakeholders
+
+### Security Architecture
+**Use When**:
+- Designing security controls
+- Threat modeling and mitigation
+- Compliance requirement definition
+- Security architecture reviews
+
+### Integration Architecture
+**Use When**:
+- Designing system integrations
+- Message system selection
+- API design and versioning
+- Multi-service communication patterns
+
+### Cloud Architecture
+**Use When**:
+- Cloud migration planning
+- Cloud-native design
+- Multi-cloud strategy definition
+- Cost optimization for cloud
+
 ## Framework Selection Guide
 
 | Initiative Type | Recommended Framework(s) |
 |----------------|-------------------------|
 | Enterprise Strategy | TOGAF |
-| Solution Design | C4 Model + Domain-Driven Design |
-| Cloud Migration | Well-Architected Frameworks + 12-Factor |
-| Microservices | DDD + Microservices Patterns + C4 |
-| API Platform | API-First + Integration Framework |
+| Solution Design | C4 Model + Domain-Driven Design + Architecture Modeling |
+| Cloud Migration | Well-Architected Frameworks + Twelve-Factor + Cloud Architecture |
+| Microservices | DDD + Microservices Patterns + C4 + Integration Architecture |
+| API Platform | API-First + Integration Architecture Framework |
 | Data Platform | Data Architecture Framework + Well-Architected |
-| Security Design | Security Framework + Well-Architected |
-| Serverless Solutions | Serverless Patterns + Well-Architected |
+| Security Design | Security Architecture Framework + Well-Architected |
+| Serverless Solutions | Serverless + Well-Architected + Cloud Architecture |
+| SaaS Applications | Twelve-Factor + API-First + Well-Architected + Cloud Architecture |
+| Event-Driven Systems | Event-Driven + Integration Architecture + Microservices + Well-Architected |
+| Integration Design | Integration Architecture + API-First |
+| Multi-Cloud Strategy | Cloud Architecture + Well-Architected Frameworks |
+| Documentation Program | Documentation Standards + Diagram Standards + Architecture Modeling |
 
 ## Adopting a Framework
 
