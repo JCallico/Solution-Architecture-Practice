@@ -2,6 +2,10 @@
 
 Welcome to the Solution Architecture Practice documentation site. This comprehensive resource serves as the central hub for our architecture practice, providing frameworks, methodologies, templates, and guidance for solution architects across the organization.
 
+**📖 [View the Documentation Site](https://jcallico.github.io/Solution-Architecture-Practice/)** - Live GitHub Pages site with Jekyll theme
+
+This repository uses Jekyll and the "Just the Docs" theme for an enhanced documentation experience. All documentation is automatically published to GitHub Pages.
+
 ## 🎯 Quick Links
 
 - [Practice Overview](./docs/practice-overview/README.md)
