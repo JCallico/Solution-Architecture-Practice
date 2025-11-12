@@ -10,6 +10,7 @@ This section provides information about the Solution Architecture Practice team,
 - [Team Directory](./team-directory.md) - Meet the team
 - [Organizational Structure](./org-structure.md) - How we're organized
 - [Roles & Responsibilities](./roles-responsibilities.md) - What each role does
+- [Career Development](./career-development.md) - Growth paths and learning opportunities
 
 ### Capabilities
 - [Capability Matrix](./capability-matrix.md) - Our skills and expertise
@@ -289,6 +290,8 @@ We invest in our team's growth:
 - Peer mentoring
 - Reverse mentoring
 - External mentors
+
+**[See Career Development Guide](./career-development.md) for comprehensive information on career growth, learning paths, mentorship, and advancement.**
 
 ## Continuous Improvement
 
